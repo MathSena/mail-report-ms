@@ -1,0 +1,56 @@
+# Ignore arquivos de ajuda
+HELP.md
+
+# Ignore diretórios de build do Maven
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+### Spring Tool Suite (STS) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Ignore diretórios de build
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Visual Studio Code (VS Code) ###
+.vscode/
+
+# Ignore o diretório de configuração OCI
+.oci/
+
+# Ignore arquivos .pem
+*.pem
+
+# Ignore outros arquivos e diretórios comuns Java/Maven
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Ignore arquivos de configuração locais
+application.properties
+application.yml
